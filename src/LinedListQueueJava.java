@@ -3,17 +3,17 @@ import java.util.Queue;
 
 public class LinedListQueueJava {
     public static void main(String[] args){
-        Queue<Integer> queue = new LinkedList<>();
+        Queue<Integer> que = new LinkedList<>();
 
-        queue.offer(10);
-        queue.offer(20);
-        queue.offer(30);
-        queue.offer(40);
+        que.offer(30);
+        que.offer(10);
+        que.offer(40);
+        que.offer(20);
 
-        System.out.println(queue);
-        System.out.println(queue.poll());
-        System.out.println(queue);
-        System.out.println(queue.peek());
+        System.out.println(que);
+        System.out.println(que.poll());
+        System.out.println(que);
+        System.out.println(que.peek());
 
 
     }
